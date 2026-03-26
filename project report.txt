@@ -1,0 +1,147 @@
+# Procrastination Predictor using Machine Learning
+
+## 1. Introduction
+
+Procrastination is a common behavioral issue among students, where tasks are delayed despite knowing the negative consequences. It affects productivity, academic performance, and mental well-being. Many students are unaware of how their daily habits contribute to procrastination.
+
+This project aims to develop a machine learning model that predicts whether a student is likely to procrastinate based on various lifestyle and study-related factors.
+
+---
+
+## 2. Problem Statement
+
+The objective of this project is to build a predictive model that can classify whether a student is likely to procrastinate or not, using features such as sleep hours, screen time, study hours, number of assignments due, social media usage, and stress level.
+
+---
+
+## 3. Motivation
+
+Procrastination is not just laziness; it is often influenced by multiple behavioral and environmental factors. Identifying these patterns can help students take corrective actions early.
+
+This project is motivated by the need to:
+
+* Understand behavioral patterns behind procrastination
+* Apply machine learning concepts to a real-life problem
+* Provide actionable insights to improve productivity
+
+---
+
+## 4. Dataset Description
+
+A custom dataset was created for this project to simulate realistic student behavior patterns. The dataset contains the following features:
+
+* **Sleep Hours**: Number of hours a student sleeps per day
+* **Screen Time**: Total daily screen usage (in hours)
+* **Study Hours**: Time spent studying per day
+* **Assignments Due**: Number of pending assignments
+* **Social Media Time**: Time spent on social media
+* **Stress Level**: Rated on a scale of 1 to 10
+* **Procrastination (Target Variable)**:
+
+  * 0 → Not Procrastinating
+  * 1 → Procrastinating
+
+The dataset consists of multiple observations representing different behavioral patterns.
+
+---
+
+## 5. Methodology
+
+### 5.1 Data Preprocessing
+
+* The dataset was loaded using pandas
+* Features and target variable were separated
+* No missing values were found in the dataset
+
+### 5.2 Model Selection
+
+Logistic Regression was chosen as the primary model because:
+
+* It is simple and effective for classification problems
+* It works well with small datasets
+* It provides interpretable results
+
+### 5.3 Training and Testing
+
+* The dataset was split into training and testing sets (80:20 ratio)
+* The model was trained using the training data
+* Predictions were made on the test data
+
+---
+
+## 6. Implementation
+
+The project was implemented using Python with the following libraries:
+
+* pandas for data handling
+* scikit-learn for machine learning
+* matplotlib (optional) for visualization
+
+Steps followed:
+
+1. Load dataset
+2. Split data into training and testing sets
+3. Train Logistic Regression model
+4. Evaluate model using accuracy score
+5. Take user input for real-time prediction
+
+---
+
+## 7. Results
+
+The model was evaluated using accuracy score and confusion matrix.
+
+* The model achieved satisfactory accuracy on the test dataset
+* The confusion matrix helped in understanding correct and incorrect predictions
+
+The model successfully predicts whether a student is likely to procrastinate based on input features.
+
+---
+
+## 8. Features of the System
+
+* Predicts procrastination behavior
+* Accepts real-time user input
+* Provides suggestions for improvement
+* Simple and user-friendly implementation
+
+---
+
+## 9. Challenges Faced
+
+* Creating a realistic dataset manually
+* Ensuring balanced data for better predictions
+* Selecting appropriate features that influence procrastination
+* Avoiding overfitting due to small dataset size
+
+---
+
+## 10. Learnings
+
+Through this project, the following concepts were understood:
+
+* Data preprocessing techniques
+* Supervised learning and classification
+* Logistic Regression model
+* Model evaluation using accuracy and confusion matrix
+* Importance of feature selection
+* Applying machine learning to real-world problems
+
+---
+
+## 11. Future Improvements
+
+* Use a larger and real-world dataset
+* Implement advanced models like Random Forest or Neural Networks
+* Build a web interface using Streamlit
+* Add more behavioral features for better prediction accuracy
+
+---
+
+## 12. Conclusion
+
+This project demonstrates how machine learning can be used to analyze behavioral patterns and predict procrastination. By identifying key factors influencing procrastination, students can take proactive steps to improve productivity.
+
+The project successfully applies fundamental AI and ML concepts to a real-world problem, making it both practical and meaningful.
+
+---

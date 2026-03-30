@@ -1,7 +1,7 @@
 # VITYARTHI--PROJECT
 # Procrastination Predictor using Machine Learning and artificial intelligence 
-# name - Bhavya kotai
-# registration number - 25BCE10059
+# Name - Bhavya kotai
+# Registration number - 25BCE10059
 
 This is a simple Python project that predicts a student's performance and procrastination risk based on daily habits.
 
